@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Ch06_ListMenu</string>
+    <string-array name="menuItems">
+        <item>漢堡</item>
+        <item>薯條</item>
+        <item>可樂</item>
+        <item>玉米濃湯</item>
+    </string-array>
+</resources>

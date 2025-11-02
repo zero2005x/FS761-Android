@@ -1,0 +1,65 @@
+# Android Studio 專案檔案
+*.iml
+.gradle
+.idea/
+local.properties
+
+# Android 編譯產物
+build/
+captures/
+.externalNativeBuild
+.cxx
+
+# 系統檔案
+.DS_Store
+Thumbs.db
+
+# Gradle 包裝器（保留 gradlew 和 gradle-wrapper.jar）
+# 但排除其他暫存檔
+.gradle/
+gradle/wrapper/*.tmp
+
+# Log 檔案
+*.log
+
+# Android Studio Navigation editor temp files
+.navigation/
+
+# Keystore 檔案（敏感資訊）
+*.jks
+*.keystore
+
+# Google Services（如果有使用 Firebase）
+google-services.json
+
+# NDK
+obj/
+
+# IntelliJ
+out/
+
+# User-specific configurations
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/gradle.xml
+.idea/assetWizardSettings.xml
+.idea/dictionaries
+.idea/libraries
+.idea/caches
+.idea/modules.xml
+.idea/misc.xml
+.idea/vcs.xml
+
+# Signing 檔案
+release/
+
+# Lint
+lint/intermediates/
+lint/generated/
+lint/outputs/
+lint/tmp/
+lint-results.xml
+lint-results_files/
+
+# Android Profiling
+*.hprof
