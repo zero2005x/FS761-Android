@@ -5,6 +5,7 @@
 本專案包含《Android App 程式設計教本之無痛起步 - 使用 Android Studio 2.X 開發環境》一書的範例程式碼。
 
 **書籍資訊：**
+
 - **書名：** Android App 程式設計教本之無痛起步 - 使用 Android Studio 2.X 開發環境
 - **作者：** 施威銘 主編
 - **書號：** FS761
@@ -44,7 +45,7 @@ FS761_Android/
 - **Android Studio:** 建議使用 Android Studio Hedgehog (2023.1.1) 或更新版本
 - **JDK:** Java Development Kit 11 或更高版本
 - **Gradle:** 8.7.3（專案已包含 Gradle Wrapper）
-- **Android SDK:** 
+- **Android SDK:**
   - Compile SDK Version: 33
   - Min SDK Version: 21
   - Target SDK Version: 33
@@ -110,6 +111,7 @@ sdk.dir=C\:\\Users\\<你的使用者名稱>\\AppData\\Local\\Android\\Sdk
 ### Q2: Gradle 同步失敗
 
 **解決方法：**
+
 1. 確認網路連線正常
 2. 檢查 Gradle 版本相容性
 3. 嘗試 File → Invalidate Caches / Restart
@@ -118,6 +120,7 @@ sdk.dir=C\:\\Users\\<你的使用者名稱>\\AppData\\Local\\Android\\Sdk
 ### Q3: 編譯錯誤或相依套件問題
 
 **解決方法：**
+
 1. 確認 `build.gradle` 中的相依套件版本
 2. 更新 Android SDK 與 Build Tools
 3. 清理並重建專案：Build → Clean Project → Rebuild Project
@@ -125,6 +128,7 @@ sdk.dir=C\:\\Users\\<你的使用者名稱>\\AppData\\Local\\Android\\Sdk
 ### Q4: 模擬器無法啟動
 
 **解決方法：**
+
 1. 確認 BIOS 已啟用虛擬化技術（Intel VT-x 或 AMD-V）
 2. 在 Windows 上，確認 Hyper-V 已正確設定
 3. 使用 AVD Manager 重新建立模擬器

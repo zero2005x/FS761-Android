@@ -48,7 +48,7 @@ git commit -m "Initial commit: Android Studio 範例專案
 3. 填寫儲存庫資訊：
    - **Repository name:** `FS761-Android` 或 `Android-Programming-Examples`
    - **Description:** `Android App 程式設計教本範例程式（旗標 FS761）`
-   - **Visibility:** 
+   - **Visibility:**
      - `Public` - 任何人都可以看到
      - `Private` - 僅您和指定的協作者可以看到
    - **不要**勾選 "Initialize this repository with a README"（我們已經有了）

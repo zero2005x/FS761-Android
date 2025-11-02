@@ -13,16 +13,19 @@
 ##### ✨ 更新項目
 
 1. **開發工具升級**
+
    - Android Studio: 從 2.X 升級至 Hedgehog (2023.1.1) 或更新版本
    - Gradle: 升級至 8.7.3
    - Gradle Plugin: 升級至 com.android.tools.build:gradle:8.7.3
 
 2. **SDK 版本更新**
+
    - Compile SDK Version: 33 (原書使用較舊版本)
    - Target SDK Version: 33
    - Min SDK Version: 21 (保持對舊版本的相容性)
 
 3. **相依套件現代化**
+
    - 從 Android Support Library 遷移至 AndroidX
    - AndroidX AppCompat: 1.6.1
    - AndroidX Espresso: 3.5.1 (測試框架)
@@ -37,10 +40,12 @@
 ##### 🔧 技術調整
 
 1. **命名空間 (Namespace)**
+
    - 在 `build.gradle` 中加入 `namespace` 宣告
    - 例如：`namespace 'tw.com.flag.ch01_hello'`
 
 2. **測試設定**
+
    - 在 `build.gradle` 中加入 `testOptions` 設定
    - 啟用單元測試預設值回傳
 
@@ -52,10 +57,12 @@
 ##### ⚠️ 已知差異
 
 1. **編譯環境差異**
+
    - 原書使用 Android Studio 2.X，本專案建議使用最新穩定版
    - 可能需要根據您的開發環境調整 Gradle 版本
 
 2. **API 變更**
+
    - 某些 Android API 在新版本中已被棄用或修改
    - 部分範例可能需要小幅調整以符合最新的 Android 開發規範
 
@@ -85,11 +92,13 @@ FS761_Android/
 ##### 🚀 使用建議
 
 1. **初次使用**
+
    - 請先閱讀 `README.md` 了解環境需求
    - 確保已安裝 Android Studio 與必要的 SDK
    - 開啟專案時，Android Studio 會自動建立 `local.properties`
 
 2. **學習路徑**
+
    - 建議按照章節順序學習：Ch01 → Ch02 → ... → Ch16
    - 每個章節都是獨立的 Android Studio 專案
    - 可以同時開啟多個專案進行比較學習
@@ -121,5 +130,4 @@ FS761_Android/
 
 ---
 
-**維護團隊：** 請填入您的名稱  
 **最後更新：** 2025-11-02
